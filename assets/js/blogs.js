@@ -44,7 +44,7 @@ function renderBlogs(blogs) {
 
 // Fetch blog data and render when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('/assets/data/blogs.json')
+    fetch('assets/data/blogs.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
