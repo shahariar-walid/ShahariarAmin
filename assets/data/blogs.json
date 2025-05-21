@@ -1,0 +1,92 @@
+[
+    {
+        "date": "Aug 1, 2024",
+        "tag": "Auth Bypass",
+        "tagColor": "blue",
+        "title": "Bypassing 403 leads to authentication token bypass and access internal resources.",
+        "description": "After completing recon in a website, I found a sensitive endpoint like https://api.example.com/cms/v1/proxy/query.",
+        "platform": "Medium",
+        "readTime": "0 min read",
+        "url": "https://take0verx0.medium.com/bypassing-403-leads-to-authentication-token-bypass-and-access-internal-resources-0fdb365edf66"
+    },
+    {
+        "date": "Aug 8, 2024",
+        "tag": "Priv Esc",
+        "tagColor": "green",
+        "title": "Hijacking User Privileges: The Story of a Patched Vulnerability in Open Bug Bounty",
+        "description": "After enjoying a day of festivities and relaxation with friends on Eid-ul-Adha, I was feeling the effects of a hearty meal. As the evening",
+        "platform": "Dev.to",
+        "readTime": "4 min read",
+        "url": "https://take0verx0.medium.com/hijacking-user-privileges-the-story-of-a-patched-vulnerability-in-open-bug-bounty-4db81fa0fd1f"
+    },
+    {
+        "date": "Mar 30, 2025",
+        "tag": "Auth Bypass",
+        "tagColor": "purple",
+        "title": "How I Bypassed 2 layers 2FA on a B2B Site, an Awesome experience",
+        "description": "A Tale of Response Manipulation and a Lesson in Server-Side Validation As a bug bounty hunter, I'm always on the hunt for vulnerabilities ...",
+        "platform": "Personal Blog",
+        "readTime": "6 min read",
+        "url": "https://take0verx0.medium.com/how-i-bypassed-2fa-on-a-b2b-site-and-earned-a-critical-bug-bounty-ea4ff9e4094b"
+    },
+    {
+        "date": "Oct 7, 2024",
+        "tag": "SSRF",
+        "tagColor": "red",
+        "title": "XMLRPC.php allows SSRF!",
+        "description": "During my recent bug bounty hunting journey, I encountered a potential SSRF (Server-Side Request Forgery) vulnerability in the xmlrpc.php file of the Wurth.es website. In this post ....",
+        "platform": "Medium",
+        "readTime": "15 min read",
+        "url": "https://take0verx0.medium.com/xmlrpc-php-allows-ssrf-5357049d43e9"
+    },
+    {
+        "date": "Mar 22, 2025",
+        "tag": "Auth Bypass",
+        "tagColor": "yellow",
+        "title": "Authentication Bypass Vulnerability — Impersonation on Article Comments",
+        "description": "While interacting with https://www.example.com/article/1234# comment , I found that I can moderate some params. The comment field looks like...",
+        "platform": "Dev.to",
+        "readTime": "2 min read",
+        "url": "https://take0verx0.medium.com/authentication-bypass-vulnerability-impersonation-on-article-comments-97169213b07c"
+    },
+    {
+        "date": "Aug 6, 2024",
+        "tag": "HTMLi",
+        "tagColor": "yellow",
+        "title": "Reflected HTML injection leads to redirection and what's not!",
+        "description": "I was mentally disturbed and navigating to hackerone and bugcrowd after almost 7 days of internet blackout in Bangladesh",
+        "platform": "Dev.to",
+        "readTime": "2 min read",
+        "url": "https://medium.com/@take0verx0/reflected-html-injection-leads-to-redirection-and-whats-not-3de256b16c30"
+    },
+    {
+        "date": "mar 22, 2025",
+        "tag": "Open Redirection",
+        "tagColor": "yellow",
+        "title": "Bypassing Open Redirect Mitigations: How I Exploited a Trusted Platform",
+        "description": "Open redirect vulnerabilities might seem like a low-hanging fruit in the bug bounty world, but sometimes, a little creativity",
+        "platform": "Dev.to",
+        "readTime": "2 min read",
+        "url": "https://medium.com/@take0verx0/bypassing-open-redirect-mitigations-how-i-exploited-a-trusted-platform-8130938083ed"
+    },
+    {
+        "date": "Mar 22, 2025",
+        "tag": "logic bypass",
+        "tagColor": "yellow",
+        "title": "Blog view count manipulation by automated requests.",
+        "description": "In the world of digital content, metrics like view counts play a crucial role in determining a blog's popularity and credibility.",
+        "platform": "Dev.to",
+        "readTime": "4 min read",
+        "url": "https://medium.com/@take0verx0/blog-view-count-manipulation-by-automated-requests-942eac11c233"
+    },
+    {
+        "date": "Jul 12, 2024",
+        "tag": "XSS",
+        "tagColor": "indigo",
+        "title": "My First Bug!!!Stored Cross Site Scripting(XSS)",
+        "description": "It was about 6 months ago. I was totally depressed for my semester final exam. I was",
+        "platform": "Personal Blog",
+        "readTime": "2 min read",
+        "url": "https://take0verx0.medium.com/my-first-bug-stored-cross-site-scripting-xss-d84051ee4e86"
+    }
+]

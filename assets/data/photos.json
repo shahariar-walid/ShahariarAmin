@@ -1,0 +1,91 @@
+
+[
+    {
+        "id": 1,
+        "title": "CAP Certification",
+        "description": "Certified AppSec Practitioner certified by the secOps group.",
+        "imageUrl": "assets/img/1.svg",
+        "tags": ["cert"],
+        "filterClass": "filter-cert"
+    },
+    {
+        "id": 2,
+        "title": "TCM Certification",
+        "description": "Practical Web Application Security and Testing certified by TCM Security.",
+        "imageUrl": "assets/img/4.svg",
+        "tags": ["cert"],
+        "filterClass": "filter-cert"
+    },
+    {
+        "id": 3,
+        "title": "Cyber Bangla Certification",
+        "description": "Penetration Testing and Bug Bounty certified by Cyber Bangla.",
+        "imageUrl": "assets/img/3.svg",
+        "tags": ["cert"],
+        "filterClass": "filter-cert"
+    },
+    {
+        "id": 4,
+        "title": "Senselearner Certification",
+        "description": "Certification for completing the Senselearner internship.",
+        "imageUrl": "assets/img/2.svg",
+        "tags": ["cert"],
+        "filterClass": "filter-cert"
+    },
+    {
+        "id": 5,
+        "title": "Phoenix Summit 2024",
+        "description": "Receiving the Phoenix Summit 2024 award for my contributions to the RUET Cyber Security Club.",
+        "imageUrl": "assets/img/5.svg",
+        "tags": ["honor"],
+        "filterClass": "filter-honor"
+    },
+    {
+        "id": 6,
+        "title": "AGM-2024,RUET Cyber Security Club",
+        "description": "Receiving award for my contributions to the RUET Cyber Security Club as the President.",
+        "imageUrl": "assets/img/6.svg",
+        "tags": ["honor"],
+        "filterClass": "filter-honor"
+    },
+    {
+        "id": 7,
+        "title": "AGM-2024,RUET Cyber Security Club",
+        "description": "Crest",
+        "imageUrl": "assets/img/7.svg",
+        "tags": ["honor"],
+        "filterClass": "filter-honor"
+    },
+    {
+        "id": 8,
+        "title": "Session 2025",
+        "description": "A session with the RUET Cyber Security Club.",
+        "imageUrl": "assets/img/10.svg",
+        "tags": ["sessions"],
+        "filterClass": "filter-sessions"
+    },
+        {
+        "id": 9,
+        "title": "Session 2024",
+        "description": "A session with the RUET Cyber Security Club.",
+        "imageUrl": "assets/img/8.svg",
+        "tags": ["sessions"],
+        "filterClass": "filter-sessions"
+    },    {
+        "id": 10,
+        "title": "Session 2023",
+        "description": "A session with the RUET Cyber Security Club.",
+        "imageUrl": "assets/img/9.svg",
+        "tags": ["sessions"],
+        "filterClass": "filter-sessions"
+    },    {
+        "id": 11,
+        "title": "Session 2025",
+        "description": "A session with the RUET Cyber Security Club.",
+        "imageUrl": "assets/img/11.svg",
+        "tags": ["sessions"],
+        "filterClass": "filter-sessions"
+    }
+
+
+]
