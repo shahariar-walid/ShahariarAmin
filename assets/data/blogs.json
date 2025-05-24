@@ -61,7 +61,7 @@
     },
     {
         "date": "mar 22, 2025",
-        "tag": "Open Redirection",
+        "tag": "Redr",
         "tagColor": "yellow",
         "title": "Bypassing Open Redirect Mitigations: How I Exploited a Trusted Platform",
         "description": "Open redirect vulnerabilities might seem like a low-hanging fruit in the bug bounty world, but sometimes, a little creativity",

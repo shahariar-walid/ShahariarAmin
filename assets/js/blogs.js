@@ -6,38 +6,24 @@ function renderBlogs(blogs) {
     blogContainer.innerHTML = '';
     
     blogs.forEach(blog => {
-        // Map tagColor to Tailwind classes
-        const colorClasses = {
-            blue: 'bg-blue-100 text-blue-800',
-            green: 'bg-green-100 text-green-800',
-            purple: 'bg-purple-100 text-purple-800',
-            red: 'bg-red-100 text-red-800',
-            yellow: 'bg-yellow-100 text-yellow-800',
-            indigo: 'bg-indigo-100 text-indigo-800'
-        };
-        
-        const tagClass = colorClasses[blog.tagColor] || 'bg-gray-100 text-gray-800';
-
         const blogElement = document.createElement('div');
-        blogElement.className = 'blog-card bg-white rounded-lg overflow-hidden border border-gray-200';
-        
+        blogElement.className = 'blog-plate';
         blogElement.innerHTML = `
-            <div class="p-6">
-                <div class="flex justify-between items-center mb-3">
-                    <span class="text-sm text-gray-500">${blog.date}</span>
-                    <span class="tag ${tagClass} text-xs font-medium px-2.5 py-0.5 rounded">${blog.tag}</span>
+            <div style="width:100%;height:100%;display:flex;flex-direction:column;justify-content:space-between;flex:1;">
+                <div style="width:100%">
+                    <div class="flex items-center mb-2" style="width:100%; display:flex; flex-direction:row; justify-content:space-between;">
+                        <span class="text-xs text-gray-500" style="font-size:0.92rem;text-align:left;">${blog.date}</span>
+                        <span class="tag text-xs font-medium px-2 py-0.5" style="text-align:right;display:inline-block;background-color:#ffeaea;color:#b91c1c;border:1px solid #fca5a5;border-radius:999px;background-clip:padding-box;box-shadow:0 1px 2px rgba(0,0,0,0.03);font-size:0.95rem;line-height:1.1;">${blog.tag}</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2" style="word-break:break-word;line-height:1.2;">${blog.title}</h3>
+                    <p class="text-gray-600 mb-3" style="overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;min-height:54px;max-height:72px;font-size:0.98rem;">${blog.description}</p>
                 </div>
-                <h3 class="text-xl font-bold text-gray-800 mb-2">${blog.title}</h3>
-                <p class="text-gray-600 mb-4">${blog.description}</p>
-                <div class="flex justify-between items-center">
-                    <span class="text-sm text-gray-500">${blog.platform} • ${blog.readTime}</span>
-                    <a href="${blog.url}" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
-                        Read <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
+                <div class="flex justify-between items-center w-100 mt-auto" style="width:100%; display:flex; flex-direction:row; align-items:center; justify-content:space-between;">
+                    <span class="text-xs text-gray-500" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:60%;text-align:left;">${blog.readTime}</span>
+                    <a href="${blog.url}" class="text-blue-600 hover:text-blue-800 font-medium flex items-center" style="white-space:nowrap;font-size:0.98rem;text-align:right;margin-left:auto;" target="${blog.url && blog.url.includes('medium.com') ? '_blank' : '_self'}" rel="${blog.url && blog.url.includes('medium.com') ? 'noopener noreferrer' : ''}">Read More <i class="fas fa-arrow-right ml-2"></i></a>
                 </div>
             </div>
         `;
-        
         blogContainer.appendChild(blogElement);
     });
 }

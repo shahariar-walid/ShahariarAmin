@@ -43,7 +43,7 @@
     {
         "id": 6,
         "title": "AGM-2024,RUET Cyber Security Club",
-        "description": "Receiving award for my contributions to the RUET Cyber Security Club as the President.",
+        "description": "Crest",
         "imageUrl": "assets/img/6.svg",
         "tags": ["honor"],
         "filterClass": "filter-honor"
@@ -51,7 +51,7 @@
     {
         "id": 7,
         "title": "AGM-2024,RUET Cyber Security Club",
-        "description": "Crest",
+        "description": "Receiving award for my contributions to the RUET Cyber Security Club as the President.",
         "imageUrl": "assets/img/7.svg",
         "tags": ["honor"],
         "filterClass": "filter-honor"
